@@ -5,6 +5,5 @@ plugins {
 
 rootProject.name = 'gradleTask'
 
-include 'api', 'core'
-include 'utils'
+include 'api', 'core', 'utils'
 

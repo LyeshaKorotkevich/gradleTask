@@ -1,4 +1,4 @@
-package ru.clevertec.utils;
+package ru.clevertec;
 
 public class StringUtils {
     public static boolean isPositiveNumber(String str) {

@@ -1,15 +1,25 @@
 plugins {
-    id 'java'
+    id 'application'
+    id 'jacoco'
 }
 
-group = 'ru.clevertec'
-version = 'unspecified'
+jar {
+    manifest() {
+        attributes 'Main-Class': 'ru.clevertec.App'
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
+    implementation project(':core')
+
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }

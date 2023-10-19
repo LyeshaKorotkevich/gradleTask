@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.clevertec.StringUtilsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-16T23:50:15" hostname="Aleksejs-MacBook-Air.local" time="0.185">
+<testsuite name="ru.clevertec.StringUtilsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-19T00:10:43" hostname="Aleksejs-MacBook-Air.local" time="0.193">
   <properties/>
-  <testcase name="testIsPositiveNumber()" classname="ru.clevertec.StringUtilsTest" time="0.185"/>
+  <testcase name="testIsPositiveNumber()" classname="ru.clevertec.StringUtilsTest" time="0.193"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
