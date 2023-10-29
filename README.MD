@@ -1,4 +1,4 @@
-Task Gradle  
+Task Gradle:  
 1. Установить Gradle
 2. Проект должен быть совместим с java 17
 3. Создать файл.jar, например, «utils-1.3.5.jar»

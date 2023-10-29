@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+    id 'test-report'
+}
+
+repositories {
+    mavenCentral()
+}
+
+generateMergedReport.dependsOn {
+    subprojects*.test
+}
